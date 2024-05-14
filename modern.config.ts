@@ -12,4 +12,9 @@ export default defineConfig({
     }),
     tailwindcssPlugin(),
   ],
+  output: {
+    distPath: {
+      root: 'output',
+    },
+  },
 });
