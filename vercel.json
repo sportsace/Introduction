@@ -1,0 +1,5 @@
+{
+  "buildCommand": "modern build",
+  "outputDirectory": "dist",
+  "rewrites": [{ "source": "/(.*)", "destination": "/html/main/index.html" }]
+}
