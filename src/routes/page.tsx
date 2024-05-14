@@ -11,6 +11,7 @@ import show2 from './imgs/show-2.jpg';
 import show3 from './imgs/show-3.jpg';
 import show4 from './imgs/show-4.jpg';
 import show5 from './imgs/show-5.jpg';
+import banner from './banner.jpg';
 
 const Index = () => (
   <div>
@@ -19,7 +20,7 @@ const Index = () => (
     </div>
 
     <Swiper
-      className="relative w-full overflow-hidden h-[300px]"
+      className="relative w-full h-[500px]"
       autoplay={{
         delay: 2500,
         disableOnInteraction: false,
@@ -30,9 +31,14 @@ const Index = () => (
       onSwiper={swiper => console.log(swiper)}
     >
       <SwiperSlide style={{ width: '100%', height: '100%' }}>
-        <img src={show1} style={{ width: '100%' }} alt="" />
+        <img
+          src={banner}
+          className="h-[500px]"
+          style={{ width: '100%', objectFit: 'cover' }}
+          alt=""
+        />
       </SwiperSlide>
-      <SwiperSlide style={{ width: '100%', height: '100%' }}>
+      {/* <SwiperSlide style={{ width: '100%', height: '100%' }}>
         <img src={show2} style={{ width: '100%' }} alt="" />
       </SwiperSlide>
       <SwiperSlide style={{ width: '100%', height: '100%' }}>
@@ -40,7 +46,7 @@ const Index = () => (
       </SwiperSlide>
       <SwiperSlide style={{ width: '100%', height: '100%' }}>
         <img src={show4} style={{ width: '100%' }} alt="" />
-      </SwiperSlide>
+      </SwiperSlide> */}
     </Swiper>
 
     <div className="text-center py-8">
