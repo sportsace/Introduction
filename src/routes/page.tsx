@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules';
 // import Swiper styles
 import 'swiper/css';
-import logo from './logo-removebg-preview.png';
+import logo from './logo.png';
 import show1 from './imgs/show-1.jpg';
 import show2 from './imgs/show-2.jpg';
 import show3 from './imgs/show-3.jpg';
