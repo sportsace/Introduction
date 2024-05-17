@@ -1,5 +1,5 @@
 // import './index.css';
-import 'tailwindcss/tailwind.css';
+import { Link } from '@modern-js/runtime/router';
 // import Swiper JS
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules';
@@ -12,6 +12,7 @@ import show3 from './imgs/show-3.jpg';
 import show4 from './imgs/show-4.jpg';
 import show5 from './imgs/show-5.jpg';
 import banner from './banner.jpg';
+import 'tailwindcss/tailwind.css';
 
 const Index = () => (
   <div>
@@ -67,10 +68,11 @@ const Index = () => (
 
     <div className="py-4 text-center border-t-2">
       <p className="text-xs text-gray-500">
-        <a className="hover:text-sky-500" href="./privacy">
+        <Link prefetch="intent" className="hover:text-sky-500m" to="./privacy">
           隐私协议
-        </a>{' '}
-        Copyright © 2024 无畏之路.{' '}
+        </Link>
+        <span className="ml-3 mr-3">|</span>Copyright © 2024 无畏之路.{' '}
+        <span className="ml-3 mr-3">|</span>
         <a className="hover:text-sky-500" href="https://beian.miit.gov.cn/">
           京ICP备2024065274号-1
         </a>
