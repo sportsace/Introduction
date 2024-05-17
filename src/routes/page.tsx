@@ -67,7 +67,10 @@ const Index = () => (
 
     <div className="py-4 text-center border-t-2">
       <p className="text-xs text-gray-500">
-        {/* © 2021 Company, Inc. All rights reserved.{' '} */}
+        <a className="hover:text-sky-500" href="./privacy">
+          隐私协议
+        </a>{' '}
+        Copyright © 2024 无畏之路.{' '}
         <a className="hover:text-sky-500" href="https://beian.miit.gov.cn/">
           京ICP备2024065274号-1
         </a>
