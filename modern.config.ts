@@ -12,4 +12,11 @@ export default defineConfig({
     }),
     tailwindcssPlugin(),
   ],
+  output: {
+    copy: [
+      {
+        from: './static-page',
+      },
+    ],
+  },
 });
