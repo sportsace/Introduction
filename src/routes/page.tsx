@@ -1,4 +1,4 @@
-// import './index.css';
+import './index.css';
 import { Link } from '@modern-js/runtime/router';
 // import Swiper JS
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -21,7 +21,7 @@ const Index = () => (
     </div>
 
     <Swiper
-      className="relative w-full h-[500px]"
+      className="wechat-qr relative w-full h-[500px]"
       autoplay={{
         delay: 2500,
         disableOnInteraction: false,
