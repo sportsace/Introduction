@@ -73,7 +73,7 @@ const Index = () => (
         <Link prefetch="intent" className="hover:text-sky-500m" to="./privacy">
           隐私协议
         </Link>
-        <span className="ml-3 mr-3">|</span>Copyright © 2024 无畏之路.{' '}
+        <span className="ml-3 mr-3">|</span>Copyright © 2025 无畏之路.{' '}
         <span className="ml-3 mr-3">|</span>
         <a className="hover:text-sky-500" href="https://beian.miit.gov.cn/">
           京ICP备2024065274号-1
