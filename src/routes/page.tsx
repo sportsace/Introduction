@@ -6,9 +6,8 @@ import { Autoplay } from 'swiper/modules';
 // import Swiper styles
 import 'swiper/css';
 import logo from './logo.png';
-import show1 from './imgs/show-1.png';
-import show2 from './imgs/show-2.png';
-import show3 from './imgs/show-3.png';
+import demo1 from './imgs/demo-1.png';
+import demo2 from './imgs/demo-2.png';
 import show4 from './imgs/show-4.png';
 import show5 from './imgs/show-5.png';
 import show6 from './imgs/show-6.png';
@@ -52,16 +51,15 @@ const Index = () => (
     </Swiper>
 
     <div className="text-center py-8">
-      <h2 className="text-2xl font-bold mb-4">无畏运动</h2>
-      <p className="text-gray-600 max-w-2xl mx-auto">
+      <h2 className="text-3xl font-bold mb-4">无畏运动</h2>
+      <p className="text-gray-600 text-lg max-w-2xl mx-auto">
         致力于打造智能化运动平台，让你面对挑战时无所畏惧
       </p>
     </div>
     <div className="2xl:container mx-auto px-4 mb-[30px]">
       <div className="grid grid-flow-col auto-cols-auto justify-between">
-        <img src={show1} alt="image1" className="w-[220px] h-[420px]" />
-        <img src={show2} alt="image2" className="w-[220px] h-[420px]" />
-        <img src={show3} alt="image3" className="w-[220px] h-[420px]" />
+        <img src={demo1} alt="image1" className="w-[220px] h-[420px]" />
+        <img src={demo2} alt="image1" className="w-[220px] h-[420px]" />
         <img src={show4} alt="image4" className="w-[220px] h-[420px]" />
         <img src={show5} alt="image5" className="w-[220px] h-[420px]" />
         <img src={show6} alt="image6" className="w-[220px] h-[420px]" />

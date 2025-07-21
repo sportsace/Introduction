@@ -1,6 +1,6 @@
 .wechat-qr::after {
   content: '';
-  @apply w-[200px] h-[200px]
+  @apply w-[230px] h-[230px]
     absolute z-[3]
     bg-no-repeat bg-contain
     top-[50%] -translate-y-[50%] left-[10%]
