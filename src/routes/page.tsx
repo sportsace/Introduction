@@ -51,7 +51,7 @@ const Index = () => (
     </Swiper>
 
     <div className="text-center py-8">
-      <h2 className="text-3xl font-bold mb-4">无畏运动</h2>
+      <h2 className="text-6xl font-bold mb-4">无畏运动</h2>
       <p className="text-gray-600 text-lg max-w-2xl mx-auto">
         致力于打造智能化运动平台，让你面对挑战时无所畏惧
       </p>
