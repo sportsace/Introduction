@@ -6,11 +6,11 @@ import { Autoplay } from 'swiper/modules';
 // import Swiper styles
 import 'swiper/css';
 import logo from './logo.png';
-import demo1 from './imgs/demo-1.png';
-import demo2 from './imgs/demo-2.png';
-import show4 from './imgs/show-4.png';
-import show5 from './imgs/show-5.png';
-import show6 from './imgs/show-6.png';
+import demo1 from './imgs/demo-1.jpg';
+import demo2 from './imgs/demo-2.jpg';
+import demo3 from './imgs/demo-3.jpg';
+import demo4 from './imgs/demo-4.jpg';
+import demo5 from './imgs/demo-5.jpg';
 import banner from './banner.jpg';
 import 'tailwindcss/tailwind.css';
 
@@ -46,7 +46,7 @@ const Index = () => (
         <img src={show3} style={{ width: '100%' }} alt="" />
       </SwiperSlide>
       <SwiperSlide style={{ width: '100%', height: '100%' }}>
-        <img src={show4} style={{ width: '100%' }} alt="" />
+        <img src={demo3} style={{ width: '100%' }} alt="" />
       </SwiperSlide> */}
     </Swiper>
 
@@ -58,11 +58,11 @@ const Index = () => (
     </div>
     <div className="2xl:container mx-auto px-4 mb-[30px]">
       <div className="grid grid-flow-col auto-cols-auto justify-between">
-        <img src={demo1} alt="image1" className="w-[220px] h-[420px]" />
-        <img src={demo2} alt="image1" className="w-[220px] h-[420px]" />
-        <img src={show4} alt="image4" className="w-[220px] h-[420px]" />
-        <img src={show5} alt="image5" className="w-[220px] h-[420px]" />
-        <img src={show6} alt="image6" className="w-[220px] h-[420px]" />
+        <img src={demo1} alt="demo1" className="w-[220px] h-[420px]" />
+        <img src={demo2} alt="demo2" className="w-[220px] h-[420px]" />
+        <img src={demo3} alt="demo3" className="w-[220px] h-[420px]" />
+        <img src={demo4} alt="demo4" className="w-[220px] h-[420px]" />
+        <img src={demo5} alt="demo5" className="w-[220px] h-[420px]" />
       </div>
     </div>
 
